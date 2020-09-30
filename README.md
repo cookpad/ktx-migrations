@@ -1,6 +1,6 @@
 # KTX Migrations
 
-There is one single file in this library: `amalgamation.kt`, which is named after [The SQLite Amalgamation](https://www.sqlite.org/amalgamation.html), and it gathers most of the KTX API/implementation that is officially distributed in multiple artifacts. Each function of the amalgamation file clearly separates the implementation from the API consumption, that way it will is easy searching for calls that can be potentially replaced by the related ktx function.
+There is one single file in this library: `amalgamation.kt`, which is named after [The SQLite Amalgamation](https://www.sqlite.org/amalgamation.html), and it gathers most of the [KTX API/implementation](https://developer.android.com/kotlin/ktx) that is officially distributed in multiple artifacts. Each function of the amalgamation file clearly separates the implementation from the API consumption, that way it will is easy searching for calls that can be potentially replaced by the related ktx function.
 
 An example extracted from the `amalgamation.kt` file:
 
